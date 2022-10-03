@@ -1,0 +1,59 @@
+h1{
+text-align: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background:linear-gradient(to bottom right,rgb(242, 242, 242)50%, rgba(0, 0, 128,0.7)50%);
+    flex-direction: column;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: navy;
+}
+div{
+    text-align: center;
+    background-color: rgba(0, 0, 128, 0.702);
+    color: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    border-radius: 25px;
+}
+form{
+    border:none;
+}
+.required{
+    width: 200px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    margin: 5px;
+}
+.required:hover{
+    border:2px solid rgba(10, 30, 200, 0.7)
+}
+input{
+    border: 2px solid grey;
+}
+.head{
+    font-size: 20px;
+}
+#signup{
+    font-size: 1rem;
+    width: 30%;
+    border-radius: 10px;
+    background: rgba(10, 20, 130, 1);
+    color: #f2f2f2;
+    margin: 1em;
+    border: 1px solid rgb(82, 19, 199);
+}
+#signup:hover{
+    cursor: pointer;
+    background-color: rgba(10, 30, 200, 0.7);
+    border: none;
+}

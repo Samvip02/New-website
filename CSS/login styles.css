@@ -1,0 +1,81 @@
+body {
+  background:linear-gradient(315deg, navy 50%, #ffffff 50%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  height: 400px;
+  width: 100%;
+  max-width: 350px;
+  border: 2px solid navy;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+label {
+  background-color: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 7px;
+  font-size: 1rem;
+  border: none;
+  width: 120px;
+  padding-left: 30px;
+}
+label.email{
+  padding-left: 10px;
+}
+input {
+  margin-bottom: 20px;
+  font-size: 15px;
+  background:white;
+}
+input:hover{
+  border: 2px solid blue;
+}
+.icon {
+  margin-top: -15px;
+  border: 2px solid silver;
+  outline: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  background:inherit;
+
+}
+input.login {
+  font-size: 20px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+input.login:hover {
+  cursor: pointer;
+  background-color: navy;
+}
+::placeholder {
+  color: none;
+}
+a {
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+p {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+a:hover {
+  text-decoration: underline;
+}

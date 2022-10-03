@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color:#192bc2
+}
+nav{
+    padding: 1em;
+}
+nav.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.up nav a{
+    text-decoration: none;
+    color: #f2f2f2;
+    background: linear-gradient(#f90093,#645dd7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.top{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Images/pexels-photo-1624487.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.top h2{
+    background: none;
+}
+.main{
+    font-family: cursive;
+}
+.main p{
+    text-align: center;
+}
+.ceo img{
+    width: 100%;
+    margin-top: 2em;
+}
+.ceo h2,.ceo p{
+    text-transform: capitalize;
+    text-align: center;
+}
+.ceo .rice{
+    display: none;
+}
+#new{
+    background: #4444;
+    margin-top: 10em;
+}
+.more{
+    padding-top:5em;
+    display: grid;
+    text-align: left;
+    justify-items:left;
+    padding: 2em;
+}
+.more h1{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.more img{
+    width:5%;
+}
+.dine{
+    font-size: 1em;
+    margin-top: 2em;
+}
+.day{
+    padding-bottom: 1em;
+}
+#us{
+    margin-left: 1em;
+}
+form {
+    margin: 2em;
+}
+form input,textarea{
+    border-radius: 5px;
+    border:2px solid silver;
+    outline: none;
+}
+form input{
+    height: 2em;
+}
+form input:hover,textarea:hover{
+    border: 2px solid #645dd7;
+}
+form button{
+    background: #645dd7;
+    color: #f2f2f2;
+    width: 10em;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.social{
+    height: 10em;
+    padding-top: 3em;
+}
+.social h2{
+    padding: 1em 0  0 10px;
+}
+.social a{
+    margin-left: 1.5em;
+}
+.social a img{
+    width: 5%;
+    margin-top: 1em;
+}
+.links{
+    background: #4444;
+    padding: 3em 0;
+}
+.links h2{
+    padding-bottom: 5px;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+@media screen and (min-width: 768px){
+    .ceo>.rice{
+        display: flex;
+        width: 70%;
+        margin-left: 11em;
+    }
+    .ceo .mum{
+        width: 70%;
+        margin-left: 11em;
+    }
+}
+@media screen and (min-width: 1080px){
+    .new{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

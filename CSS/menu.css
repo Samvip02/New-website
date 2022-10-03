@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+span{
+    color: navy;
+}
+.head{
+    background: rgba(242, 242, 242, 0.7);
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.top h1{
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 1em;
+}
+.head h3{
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+div{
+    margin: 1em;
+}
+.jollof{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/jollof\ rice.jpg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+/*.jollof:hover{
+    background: linear-gradient(rgba(0,0,128,0.7),rgba(0,0,128,0.7)),url(/Images/jollof\ rice.jpg);
+}*/
+.jollof-plantain{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/jollof\ and\ plantain.jpg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+/*.jollof-plantain:hover{
+    background: linear-gradient(rgba(0,0,128,0.7),rgba(0,0,128,0.7)),url(/Images/jollof\ and\ plantain.jpg);
+    margin: 10px;
+}*/
+.jollof-salad{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/jollof\ and\ salad.jpeg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.fried{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/fried\ rice_1.jpeg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.fried-salad{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/fried\ and\ salad.jpeg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.beans{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/Images/beans.jpeg);
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.location{
+    background:#444444;
+    color:#f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.location h1{
+    text-align:left;
+    text-transform: uppercase;
+}
+.location img{
+    width: 5%;
+}
+
+
+.location .visit{
+    margin-bottom: 3em;
+}
+@media screen and (min-width:769px){
+    div{
+        background: center;
+    }
+}
+@media screen and (min-width:1080px){
+    .all{
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: -5em;
+    }
+    .jollof,.jollof-plantain,.fried,.fried-salad,.jollof-salad,.beans{
+        width: 100%;
+        overflow: hidden;
+    }
+    .fried,.fried-salad,.jollof-salad,.beans{
+        width: 140%;
+    }
+    .fried,.jollof-salad{
+        margin-left: -1em;
+    }
+    /*.jollof-plantain:hover{
+    background: linear-gradient(rgba(0,0,128,0.7),rgba(0,0,128,0.7)),url(/Images/jollof\ and\ plantain.jpg);
+    margin: 10px;
+    }*/
+    .location{
+        margin-top: 4em;
+        padding: 1em;
+    }
+}
+
